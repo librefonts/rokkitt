@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [Rokkitt-Regular.ttf.ttx, Rokkitt-Bold.ttf.ttx, Rokkitt-Light.ttf.ttx,
+  src/Rokkitt-Light.otf.ttx, src/Rokkitt-Regular.otf.ttx, src/Rokkitt-Bold.otf.ttx,
+  src/Rokkitt-Light-TTF.sfd, src/Rokkitt-Regular-TTF.sfd, src/Rokkitt-Bold.sfd, src/Rokkitt-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
